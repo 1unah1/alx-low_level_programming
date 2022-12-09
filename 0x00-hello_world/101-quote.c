@@ -1,13 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * Main - entry point
- *
- * return: always 1 (succes)
+ * Description: 'To print a string accurately'
+ * Return: always 1 (succes)
  */
 
-int main()
+int main(void)
 {
 printf("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 
