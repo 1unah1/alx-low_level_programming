@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- *  Main - Writes '"Programming is like building a multilingual puzzle'
+ *  main - Entry point
+ *  Description: 'this program prints a string using puts'
  *  Return: Always 0(sucess)
  */
 
