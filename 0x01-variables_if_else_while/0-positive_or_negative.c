@@ -11,7 +11,7 @@
  */
 int main(void)
 {
-	intn;
+	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -20,7 +20,7 @@ int main(void)
 	else if (n == 0)
 		printf("%d is 0", n);
 	else
-		(n < 0)
+		(n < 0);
 		printf("%d is negative", n);
 
 	return (0);

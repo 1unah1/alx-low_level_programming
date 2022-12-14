@@ -5,7 +5,7 @@
 /*
  * main - Entry point
  * Description: 'Prints is < 5, is 0 or is > 6 if the last digit
- * of a random no. assigned to the  variable, n, is its equivalent.
+ * of a random no. assigned to the  variable, n, is its equivalent'
  * Return: Always 0 (success)
  */
 
