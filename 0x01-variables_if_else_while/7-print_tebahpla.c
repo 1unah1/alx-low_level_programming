@@ -8,6 +8,7 @@
 int main(void)
 {
 	char alp_rev = 'z';
+
 	while (alp_rev >= 'a')
 	{
 		putchar(alp_rev);

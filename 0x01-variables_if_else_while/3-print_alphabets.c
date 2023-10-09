@@ -1,4 +1,4 @@
-#include <stdlio.h>
+#include <stdio.h>
 
 /**
  * main - prints lowercase alphabet except p and e
@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-int main (void)
+int main(void)
 {
 	char alph_lower = 'a';
 	char alph_upper = 'A';

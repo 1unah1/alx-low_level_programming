@@ -8,9 +8,10 @@
 int main(void)
 {
 	char alp_strt = 'a';
+
 	while (alp_strt <= 'z')
 	{
-		if (alp_strt != 'p' || alp_strt != 'e')
+		if (alp_strt != 'p' && alp_strt != 'e')
 		{
 		putchar(alp_strt);
 		alp_strt++;
