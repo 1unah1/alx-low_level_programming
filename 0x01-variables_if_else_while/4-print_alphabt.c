@@ -9,13 +9,10 @@ int main(void)
 {
 	char alp_strt = 'a';
 
-	while (alp_strt <= 'z')
+	for (; alp_strt <= 'z'; alp_strt++)
 	{
 		if (alp_strt != 'p' && alp_strt != 'e')
-		{
-		putchar(alp_strt);
-		alp_strt++;
-		}
+			putchar(alp_strt);
 	}
 
 	putchar('\n');
