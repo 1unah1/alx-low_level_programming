@@ -1,12 +1,14 @@
 #include "main.h"
 /**
- * int add(int, int) - Function adds two int and return the sum.
+ * add - Function adds two int and return the sum.
  *
- * @n: integers to add up.
+ * @num_1: 1st integer and part of the sum.
  *
- * Return: 0 ( Success).
+ * @num_2: 2nd integer and part of the sum.
+ *
+ * Return: Sum (num_1 + num_2).
  */
-int add(int, int)
+int add(int num_1, int num_2)
 {
 	int sum = (num_1 + num_2);
 	
