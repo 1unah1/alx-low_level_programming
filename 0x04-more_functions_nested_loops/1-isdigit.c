@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * _isdigit - checks int from 0-9. If yes, 1; else 0.
+ * _isdigit - checks int from 0-9 If yes, 1; else 0.
  *
- *@c: Char to be entered and checked for integer.
+ *@c: int to be entered and checked for integer.
  *
- * Return: 1 or 0 ( an int)
+ * Return: 1 or 0 (an int)
  */
 int _isdigit(int c)
 {
-	int x;
+	int c;
 
-	if (x >= 0 && x <= 9)
+	if (c >= '0' && c <= '9')
 		return (1);
 	else
 		return (0);
