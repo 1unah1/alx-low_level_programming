@@ -2,7 +2,6 @@
 
 /**
  * _strlen - Function that returns the lenght of a string.
- *
  * @s: varable of type char which lenght is to be calculate.
  *
  * Return: Always 0.
@@ -16,8 +15,8 @@ int _strlen(char *s)
 
 	for (n = '0'; n <= l; l++)
 	{
-		c++
+		c++;
 	}
 
-	return (c + '0');
+	_putchar(c + '0');
 }
