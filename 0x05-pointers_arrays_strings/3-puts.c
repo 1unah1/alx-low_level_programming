@@ -8,10 +8,6 @@
  */
 int _puts(char *s)
 {
-	char stl[];
-	s = &stl;
-	*s = stl;
-
 	_putchar(*s);
 	_putchar('\n');
 }
