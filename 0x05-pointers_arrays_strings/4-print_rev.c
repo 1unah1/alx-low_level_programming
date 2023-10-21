@@ -12,7 +12,7 @@ void print_rev(char *s)
 
 	c = 0;
 
-	for (n = 0; s[n] != '\0'; s++)
+	for (n = 0; s[n] != '\0'; n++)
 		c++;
 
 	for (n = c - 1; n >= 0; n--)

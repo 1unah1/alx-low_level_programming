@@ -3,10 +3,9 @@
 /**
  * _puts - Function to output a string
  * @s: string to be printed to stdout.
- *
  * Return: Always 0.
  */
-int _puts(char *s)
+void _puts(char *s)
 {
 	_putchar(*s);
 	_putchar('\n');
