@@ -9,14 +9,13 @@
  */
 void print_array(int *a, int n)
 {
+	int c;
 	n = 0;
-	int c = 0;
 
 	while (a[n] != '\0')
 	{
-		c += 1;
+		printf("%i, ", a[n]);
 		n++;
 	}
-	printf("%d, ", n);
 	printf("\n");
 }
