@@ -9,7 +9,7 @@
  */
 void print_array(int *a, int n)
 {
-	i = 0;
+       int i = 0;
 
 	while (a[i] < n)
 	{
@@ -20,7 +20,7 @@ void print_array(int *a, int n)
 			printf(", ");
 		}
 
-		n++;
+		++;
 	}
 	printf("\n");
 }
