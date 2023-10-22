@@ -9,7 +9,6 @@
  */
 void print_array(int *a, int n)
 {
-	int c;
 	n = 0;
 
 	while (a[n] != '\0')
