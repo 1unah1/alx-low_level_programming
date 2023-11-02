@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * _strcmp - Function that compares two string and return their differnce .
@@ -12,22 +12,15 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int index, len_s1, len_s2 = 0;
+	int index1, index2, len_s1, len_s2 = 0;
 	int diff;
-
-	while (s1[index])
-	{
-		len_s1++;
-		index++;
-	}
-	index = 0;
-
-	while (s2[index])
-	{
-		len_s2++;
-		index++;
-	}
 	
+	for (index1 = 0; s1[index1] != '\0'; index1++)
+		len_s1++;
+
+	for (index2 = 0; s2[index2] != '\0'; index2++)
+		len_s2++;
+
 	diff = len_s1 - len_s2;
 
 	return (diff);

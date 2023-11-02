@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * reverse_array - function that reverses an integer array.
@@ -8,7 +8,7 @@
  * @n: Representing the max elements in the array.
  */
 
-void reverse_array(int *a, int n);
+void reverse_array(int *a, int n)
 {
 	int index, half_n;
 
@@ -16,11 +16,11 @@ void reverse_array(int *a, int n);
 	{
 		half_n = a[index];
 		a[index] = a[n - index - 1];
-		a[n - index - 1] = temp;
+		a[n - index - 1] = half_n;
 	}
 
 	for (index = 0; index < n; index++)
-		_putchar(index + '0');
+		_putchar(a[index]);
 			
 }
 

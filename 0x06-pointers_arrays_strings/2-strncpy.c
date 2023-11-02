@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * _strncpy - Function that copies a string.
@@ -12,7 +12,7 @@
  * Return: A pointer to the dest string.
  */
 
-char *_strncpy(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n)
 {
 	int indexd;
 	int indexs;

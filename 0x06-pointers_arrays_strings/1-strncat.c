@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * _strncat - Function that concantenate 2 strings.
@@ -7,7 +7,7 @@
  *
  * @src: The string to be appended to desk.
  *
- * @n: 
+ * @n: The lenghth of the string. 
  *
  * Return: A pointer to the dest string
  */
@@ -24,7 +24,7 @@ char *_strncat(char *dest, char *src, int n)
 		indexd++;
 	}
 
-	for (indexs = 0; src[indexs] && index < n; indexs++)
+	for (indexs = 0; src[indexs] && indexs < n; indexs++)
 	{
 		dest[indexd] = src[indexs];
 		indexd++;
