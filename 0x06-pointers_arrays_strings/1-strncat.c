@@ -7,7 +7,7 @@
  *
  * @src: The string to be appended to desk.
  *
- * @n: The lenghth of the string. 
+ * @n: The lenghth of the string.
  *
  * Return: A pointer to the dest string
  */
